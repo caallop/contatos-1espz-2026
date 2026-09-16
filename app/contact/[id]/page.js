@@ -6,6 +6,7 @@ const ContactDetailPage = () => {
     const params = useParams();           // { id: "1234567890" }
     const router = useRouter();           // para navegar programaticamente
     const searchParams = useSearchParams(); // ?nome=João&email=...
+    
 
     // Reconstrói o objeto contato a partir dos query parameters
     const contact = {
